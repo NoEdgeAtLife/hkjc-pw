@@ -18,6 +18,10 @@ function splitMatchText(matchText) {
   return match;
 }
 
+/**
+ * Reads the content of a div element from a web page and returns the matches in JSON format.
+ * @returns {Promise<string>} A promise that resolves to a JSON string containing the matches.
+ */
 async function readDivElement() {
   const browser = await chromium.launch();
   const page = await browser.newPage();
