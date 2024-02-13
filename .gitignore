@@ -33,4 +33,6 @@ yarn.lock
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
 .DS_Store
+matches.json
